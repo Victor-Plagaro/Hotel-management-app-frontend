@@ -128,7 +128,7 @@ export default defineConfig({
   ],
 })
 ```
-Importa los estilos de tailwind en el `index.css`:
+Importa los estilos de tailwind en el `index.css`
 ```css
 @import "tailwindcss";
 ```
