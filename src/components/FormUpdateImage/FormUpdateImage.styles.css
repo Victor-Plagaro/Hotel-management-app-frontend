@@ -1,0 +1,17 @@
+@import "@/index.css";
+
+.dialog-form-update-image {
+  @apply bg-gray-50 fixed top-1/3 size-auto self-center justify-self-center rounded-lg border-1 border-gray-100 p-6 shadow-2xl dark:bg-stone-800 dark:text-white;
+}
+
+.form-update-image__label {
+  @apply text-xs font-bold text-gray-800 dark:text-white;
+}
+
+.form-update-image__inputs {
+  @apply w-full rounded-lg border-1 border-gray-300 p-1 pl-2 text-gray-900 focus:text-gray-800 dark:text-white dark:focus:text-white dark:bg-stone-800;
+}
+
+.form-update__btn-submit {
+  @apply rounded-lg bg-gray-800 p-2 font-semibold text-white hover:bg-white hover:text-gray-800 hover:shadow-lg hover:shadow-gray-800/30 dark:bg-white dark:text-gray-900 cursor-pointer;
+}

@@ -1,0 +1,41 @@
+@import "@/index.css";
+
+.data-table {
+  @apply flex min-h-screen min-w-full dark:bg-stone-900 dark:text-white;
+}
+
+.left-column__filter {
+  @apply sticky top-6 flex flex-col gap-6;
+}
+
+.data-table__table {
+  @apply flex w-screen flex-col items-center p-4;
+}
+
+.table__title {
+  @apply mb-4 text-center text-2xl font-bold;
+}
+
+.table__searchbar {
+  @apply mb-3 flex w-full flex-row justify-center gap-5;
+}
+
+.table__data-table {
+  @apply w-6xl border border-gray-200 bg-white dark:border-stone-300 dark:bg-stone-800;
+}
+
+.data-table__th {
+  @apply py-2;
+}
+
+.data-table__td {
+  @apply py-2 text-center;
+}
+
+.td__buttons {
+  @apply cursor-pointer rounded-sm bg-gray-200 p-2 hover:bg-gray-300 dark:bg-stone-900 dark:hover:bg-stone-700;
+}
+
+.td__icons {
+  @apply flex size-10 cursor-pointer items-center justify-center hover:scale-110;
+}
